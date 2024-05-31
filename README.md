@@ -14,7 +14,3 @@ Tech Stack
 
 Frontend: React, Redux, Axios
 Backend: Node.js, Express.js, MongoDB
-
-License
-
-MIT License. See LICENSE for details.
