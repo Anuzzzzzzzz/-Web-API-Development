@@ -1,16 +1,16 @@
 const DATA = [
     {
         id : 0,
-        title : "IPhone 11",
-        price : 80000,
-        desc : "IPhone 11",
+        title : "IPhone 12",
+        price : 90000,
+        desc : "IPhone 12",
         img : "/assets/images/products/iphone11.png"
     },
     {
         id : 1,
-        title : "IPhone 11 Pro Max",
-        price : 10000,
-        desc :"IPhone 11 Pro Max",
+        title : "IPhone 12 Pro Max",
+        price : 120000,
+        desc :"IPhone 12 Pro Max",
         img : "/assets/images/products/iphone11promax.png"
     },
     {
@@ -22,23 +22,23 @@ const DATA = [
     },
     {
         id : 3,
-        title : "IPhone 12",
-        price : 10500,
-        desc : "IPhone 12",
+        title : "IPhone 13",
+        price : 140000,
+        desc : "IPhone 13",
         img : "/assets/images/products/iphone12.png"
     },
     {
         id : 4,
-        title : "IPhone 12 Pro",
-        price : 12000,
-        desc :  "IPhone 12 Pro",
+        title : "IPhone 13 Pro",
+        price : 160000,
+        desc :  "IPhone 13 Pro",
         img : "/assets/images/products/iphone12pro.png"
     },
     {
         id : 5,
-        title : "IPhone 12 Pro Max",
-        price : 16500,
-        desc : "IPhone 12 Pro Max",
+        title : "IPhone 13 Pro Max",
+        price : 180000,
+        desc : "IPhone 13 Pro Max",
         img : "/assets/images/products/iphone12promax.png"
     }
 ]

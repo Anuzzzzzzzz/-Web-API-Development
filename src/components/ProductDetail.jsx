@@ -14,7 +14,7 @@ const ProductDetail = () => {
 
     // We need to store useDispatch in a variable
     const dispatch = useDispatch()
-
+    
     const handleCart = (product) => {
         if (cartBtn === "Add to Cart") {
             dispatch(addItem(product))
@@ -22,7 +22,7 @@ const ProductDetail = () => {
         }
         else{
             dispatch(delItem(product))
-            setCartBtn("Add to Cart")
+            setCartBtn("Add to the Cart")
         }
     }
 

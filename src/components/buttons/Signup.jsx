@@ -1,19 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const Signup = () => {
     return (
         <div>
-            {/* <!-- Button trigger modal --> */}
+            {/* Button trigger modal */}
             <button type="button" className="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#signupModal">
                 <span className="fa fa-user-plus me-1"></span> Register
             </button>
 
-            {/* <!-- Modal --> */}
+            {/* Modal */}
             <div className="modal fade" id="signupModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Login</h5>
+                            <h5 className="modal-title" id="exampleModalLabel">Signup</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
@@ -48,7 +48,7 @@ const Signup = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Signup
+export default Signup;

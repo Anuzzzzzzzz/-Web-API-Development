@@ -1,19 +1,19 @@
-import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer'
-import Home from './components/Home'
-import About from './components/About'
-import Product from './components/Product'
-import Contact from './components/Contact'
-import { Redirect, Route, Switch } from 'react-router-dom';
-import ProductDetail from './components/ProductDetail';
-import Cart from './components/Cart';
-import Checkout from './components/Checkout'
+import { Redirect, Route, Switch } from "react-router-dom";
+import "./App.css";
+import About from "./components/About";
+import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Product from "./components/Product";
+import ProductDetail from "./components/ProductDetail";
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/products" component={Product} />
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />
       </Switch>
-      <Footer/>
+      <Footer />
     </>
   );
 }
